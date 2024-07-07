@@ -11808,10 +11808,14 @@ MonoBehaviour:
   onExperiment: 1
   username: wzt
   keyboardType: 3
-  phrasesNumber: 5
+  phrasesNumber: 1
   transcript: {fileID: 257553751}
   inputField: {fileID: 817533404}
+  clickKeyboard: {fileID: 0}
+  enterKeyPressedExp: 0
   LogDir: Assets/ExpLog/
+  fileName: Data.txt
+  phraseIndex: 0
   PadTouch:
     actionPath: /actions/Keyboard/in/touch
     needsReinit: 0
@@ -17220,7 +17224,6 @@ MonoBehaviour:
   hands:
   - {fileID: 1886930962}
   - {fileID: 1887111308}
-  - {fileID: 0}
   headCollider: {fileID: 1880653758}
   rigSteamVR: {fileID: 1893155286}
   rig2DFallback: {fileID: 1893164194}

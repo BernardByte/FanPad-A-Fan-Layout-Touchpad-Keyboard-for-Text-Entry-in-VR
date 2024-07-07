@@ -3870,12 +3870,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   onExperiment: 1
-  username: wzt
+  username: Nathon
   keyboardType: 2
   phrasesNumber: 5
   transcript: {fileID: 1102444547}
   inputField: {fileID: 1435210822}
   LogDir: Assets/ExpLog/
+  fileName: Data.txt
   PadTouch:
     actionPath: /actions/Keyboard/in/touch
     needsReinit: 0
@@ -28660,7 +28661,6 @@ MonoBehaviour:
   hands:
   - {fileID: 1886930962}
   - {fileID: 1887111308}
-  - {fileID: 0}
   headCollider: {fileID: 1880653758}
   rigSteamVR: {fileID: 1893155286}
   rig2DFallback: {fileID: 1893164194}
@@ -32140,9 +32140,9 @@ MonoBehaviour:
   inputText: {fileID: 0}
   inputField: {fileID: 0}
   wordCubes: {fileID: 0}
-  enableOutput: 0
+  enableOutput: 1
   InclinedKeyboard: {fileID: 0}
-  onFittingMode: 0
+  onFittingMode: 1
   theta: 0
   radius: 0
   fittingaudio: {fileID: 224178742}

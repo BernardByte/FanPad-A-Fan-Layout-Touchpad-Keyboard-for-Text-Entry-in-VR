@@ -397,7 +397,7 @@ public class KeyboardBase : MonoBehaviour
         string tmp = string.Empty;
         foreach (string str in predictor.getSuggestions())
             tmp = tmp + str + ", ";
-        Debug.Log(tmp);
+        //Debug.Log(tmp);
     }
 
     public void OutputWord(string word)

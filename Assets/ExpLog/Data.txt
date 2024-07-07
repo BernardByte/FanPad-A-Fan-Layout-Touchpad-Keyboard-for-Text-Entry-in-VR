@@ -1,0 +1,1 @@
+﻿StudentName,ToolID,TranscribedLength,Seconds,Correct,IF,INF,WPM,TotalER,CorrectedER,UncorrectedER,InputStream,TranscribedText,F,CorrectionEfficiency,Participant,Utilised,Wasted
