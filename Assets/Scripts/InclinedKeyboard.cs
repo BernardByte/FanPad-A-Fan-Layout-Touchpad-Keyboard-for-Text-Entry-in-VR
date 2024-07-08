@@ -127,7 +127,7 @@ public class InclinedKeyboard : ClickKeyboard
         int handmode = (hand == SteamVR_Input_Sources.LeftHand) ? mode : mode + 3;
 
         char output = (char)keys[handmode, row, column];
-        //Debug.Log(output);
+        //Debug.Log(output + "  Line 130 InclinedKeyboard.cs");  // not suitable for type data logs
         Transform LR = hand == SteamVR_Input_Sources.LeftHand ? keyboardRoot.GetChild(0) : keyboardRoot.GetChild(1);
 
         switch (output)

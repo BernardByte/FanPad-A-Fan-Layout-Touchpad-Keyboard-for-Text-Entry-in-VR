@@ -316,7 +316,7 @@
             {
                "inputs" : {
                   "click" : {
-                     "output" : "/actions/keyboard/in/over"
+                     "output" : "/actions/keyboard/in/gripclick"
                   }
                },
                "mode" : "button",
@@ -376,9 +376,12 @@
    },
    "category" : "steamvr_input",
    "controller_type" : "vive_controller",
-   "description" : "Keyboard",
+   "description" : "in this binding, we added gripclick action",
    "interaction_profile" : "",
-   "name" : "为 Vive 控制器 保存的 [Testing] Keyboard 配置",
-   "options" : {},
+   "name" : "FanPad Button Bindings",
+   "options" : {
+      "simulate_rendermodel" : true,
+      "simulated_controller_type" : "vive_controller"
+   },
    "simulated_actions" : []
 }

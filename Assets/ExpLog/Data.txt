@@ -1,1 +1,6 @@
-﻿StudentName,ToolID,TranscribedLength,Seconds,Correct,IF,INF,WPM,TotalER,CorrectedER,UncorrectedER,InputStream,TranscribedText,F,CorrectionEfficiency,Participant,Utilised,Wasted
+﻿StudentName,ToolID,TranscribedLength,Seconds,Correct,IF,INF,WPM,TotalER,CorrectedER,UncorrectedER,InputStream,TranscribedText,F,CorrectionEfficiency,Participant,Utilised,Wasted1126061,2,9,2.021905,2,0,16,47.47998,88.88889,0,88.88889,"ekkrkkkjj","ekkrkkkjj",0,0,0,0.1111111,0.8888889
+1126061,2,6,1.241179,1,0,17,48.34112,94.44444,0,94.44444,"lelkkd","lelkkd",0,0,0,0.05555556,0.9444444
+1126061,2,11,6.592864,5,0,13,18.2015,72.22222,0,72.22222,"tezdgtgrtd ","tezdgtgrtd ",0,0,0,0.2777778,0.7222222
+1126061,2,17,4.647564,3,0,21,41.31197,87.5,0,87.5,"ttrrR!T!TPTPTRRRM","ttrrR!T!TPTPTRRRM",0,0,0,0.125,0.875
+1126061,2,10,10.12352,0,0,31,10.66822,100,0,100,"UTUTTTFITT","UTUTTTFITT",0,0,0,0,1
+1126061,2,8,18.38515,1,7,17,4.568905,96,28,68,"BGGELKUJJJJGT H","JJJJGT H",0,0,0.2916667,0.04,0.96

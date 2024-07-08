@@ -153,6 +153,7 @@ public class ClickKeyboard : KeyboardBase
             return;
         base.OnTouchUp(fromAction, fromSource);  // touched = false.
         GameObject tmp = hoveringKey;
+       // Debug.Log(tmp.name + $" Length:{tmp.name.Length} ClickKeyboard.cs");
         if(tmp != null)
         {
             if(tmp.name == "enter")

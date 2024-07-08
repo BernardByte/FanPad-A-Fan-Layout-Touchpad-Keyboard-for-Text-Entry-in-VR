@@ -385,8 +385,13 @@ public class KeyboardBase : MonoBehaviour
                 ReleaseKey((byte)VKCode.Shift);
         }
         // ͳ��.
-        if(exp.onExperiment){
-            exp.Next(ascii);
+        if(exp.OnExperiment){
+            
+            exp.asciiCodeForEnterKey = ascii;
+            if (exp.isLeftControllerGripPressed)
+            {
+                exp.RecordLogData(ascii);
+            }
         }
         // ���ʾ���
         predictor.next(ascii);        
@@ -418,8 +423,8 @@ public class KeyboardBase : MonoBehaviour
         // ������ƶ��������.
         inputField.caretPosition += word.Length;
         // ˢ��ͳ������. ����ո�Ӧ���ڴ�֮��.
-        if(exp.onExperiment){
-            exp.Next(word, curword);
+        if(exp.OnExperiment){
+           // exp.Next(word, curword);
         }
         // ������ʺ����һ���ո�.
         OutputLetter(' ');
