@@ -107,7 +107,7 @@
       "type": "boolean"
     },
     {
-      "name": "/actions/Keyboard/in/over",
+      "name": "/actions/Keyboard/in/gripclick",
       "type": "boolean"
     }
   ],

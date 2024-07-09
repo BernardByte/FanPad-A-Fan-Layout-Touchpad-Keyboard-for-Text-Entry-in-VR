@@ -28,7 +28,7 @@ public class Fitting : KeyboardBase
     {
         if(!onFittingMode) points.Clear();
         if(onFittingMode && points.Count < 300) {
-            print(points.Count);
+            //print(points.Count);
             GetCostomized();
         }
     }

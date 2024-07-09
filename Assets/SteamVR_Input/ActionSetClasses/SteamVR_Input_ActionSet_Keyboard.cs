@@ -65,11 +65,11 @@ namespace Valve.VR
             }
         }
         
-        public virtual SteamVR_Action_Boolean over
+        public virtual SteamVR_Action_Boolean gripclick
         {
             get
             {
-                return SteamVR_Actions.keyboard_over;
+                return SteamVR_Actions.keyboard_gripclick;
             }
         }
     }

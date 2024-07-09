@@ -1,0 +1,5 @@
+﻿StudentName,ToolID,TranscribedLength,Seconds,Correct,IF,INF,WPM,TotalER,CorrectedER,UncorrectedER,InputStream,TranscribedText,F,CorrectionEfficiency,Participant,Utilised,Wasted
+
+0,0,20,55.52968,18,1,2,4.105913,14.28571,4.761905,9.523809,"the (%futhurev is here","the futhurev is here",1,1,0.3333333,0.8181818,0.1818182
+0,0,13,10.83043,6,0,18,13.29587,75,0,75,"jrxne i rzgnf","jrxne i rzgnf",0,0,0,0.25,0.75
+0,0,12,12.96498,5,2,26,10.18127,84.84849,6.060606,78.78788," draf %nx  % ndj"," drafnx  ndj",2,1,0.07142857,0.1428571,0.8571429

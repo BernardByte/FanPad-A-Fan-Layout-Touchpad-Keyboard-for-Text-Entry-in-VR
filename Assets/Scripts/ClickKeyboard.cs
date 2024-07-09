@@ -23,11 +23,20 @@ public class ClickKeyboard : KeyboardBase
 
     Vector2 lastSlideAxis, lastSlideDelta;
 
+    public static bool enterKeyPressed = false;
+
     SteamVR_Input_Sources mutex;   // exclude left hand and right hand.
 
     // Update is called once per frame
     void Update()
     {
+        if(hoveringKey  != null)
+        {
+            //if(hoveringKey.name == "enter")
+            //{
+            //    Debug.Log(hoveringKey.name);
+            //}
+        }
         if (!selected && !deleted && touched)
         {
             if (checkKey == null)
@@ -144,6 +153,14 @@ public class ClickKeyboard : KeyboardBase
             return;
         base.OnTouchUp(fromAction, fromSource);  // touched = false.
         GameObject tmp = hoveringKey;
+       // Debug.Log(tmp.name + $" Length:{tmp.name.Length} ClickKeyboard.cs");
+        if(tmp != null)
+        {
+            if(tmp.name == "enter")
+            {
+                enterKeyPressed = true;
+            }
+        }
         int ascii = longHolding ? longHoldingLogic(new Vector2(1,1), ref tmp) : Axis2Letter(lastSlideAxis - lastSlideDelta, fromSource, _mode, out tmp);
         hoveringKey.GetComponent<MeshRenderer>().material.color = oldColor;
         // ������Ƽ���Ŀǰֻ��VKCode.Shift.
