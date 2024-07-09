@@ -167,8 +167,15 @@ public class Experiment : MonoBehaviour
         {
             Debug.Log("Enter pressed.");
             asciiCodeForEnterKey = 0; // set zero otherwise this condition will be true
+            
+            // removing new line before submitting it.
             inputField.text = inputField.text.Replace("\r", "").Replace("\n", "");
+            
+            // make inputStream lower
+            inputStream = inputStream.ToLower();
+
             Debug.Log(inputField.text);
+            Debug.Log(inputStream);
             Submit();
             
         }
@@ -214,7 +221,17 @@ public class Experiment : MonoBehaviour
             // save stream
             if (ascii != (int)VKCode.Enter)
             {
-                inputStream += Convert.ToChar(ascii);
+                
+                
+                if (ascii == (int)VKCode.Back || ascii == (int)VKCode.Shift)
+                {
+                    inputStream += "%";
+                }
+                else
+                {
+                    inputStream += Convert.ToChar(ascii);
+                }
+                
             }
             
         }
@@ -291,7 +308,7 @@ public class Experiment : MonoBehaviour
                 //Compare whole answer & save to log file
                 typeData.inputStream = inputStream;
                 string transribedText = inputField.text;
-                typeData.transribedText = transribedText;
+                typeData.transribedText = transribedText.ToLower();
                 typeData.T = inputField.text.Length;
                 typeData.INF = MSD(questions[questionIndex], transribedText);
                 typeData.C = Mathf.Max(questions[questionIndex].Length, transribedText.Length) - typeData.INF;
