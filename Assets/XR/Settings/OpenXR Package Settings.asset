@@ -52,7 +52,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0f6bfdbcb316ed242b30a8798c9eb853, type: 3}
   m_Name: KHRSimpleControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Khronos Simple Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.khrsimpleprofile
@@ -266,12 +266,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5a1f07dc5afe854f9f12a4194aca3fb, type: 3}
   m_Name: WebGL
   m_EditorClassIdentifier: 
-  features:
-  - {fileID: -5501623693548850098}
+  features: []
   m_renderMode: 1
   m_depthSubmissionMode: 0
-  m_optimizeBufferDiscards: 0
-  m_symmetricProjection: 0
 --- !u!114 &-1044309664132172047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +303,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d6ccd3d0ef0f1d458e69421dccbdae1, type: 3}
   m_Name: ValveIndexControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Valve Index Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.valveindex
@@ -423,7 +420,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f928d0d73a35f294fbe357ca17aa3547, type: 3}
   m_Name: MicrosoftHandInteraction Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Hand Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
@@ -498,24 +495,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: -4805449591292637983}
-  - {fileID: -7448590496702563865}
   - {fileID: 3441880302087832300}
-  - {fileID: -299354290089624108}
-  - {fileID: 6498844674969279335}
   - {fileID: -8789570993011527241}
-  - {fileID: -2913082155500407629}
-  - {fileID: -2388881659144173751}
   - {fileID: 5283869016039235321}
-  - {fileID: -2962459765710458138}
   - {fileID: 3969947232794663911}
   - {fileID: 4984911311967549800}
-  - {fileID: -7710886777324416744}
   - {fileID: 7760677607318605625}
-  - {fileID: -8418699826557571779}
   m_renderMode: 1
   m_depthSubmissionMode: 0
-  m_optimizeBufferDiscards: 0
-  m_symmetricProjection: 0
 --- !u!114 &3441880302087832300
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -568,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b3cf79659a011bd419c7a2a30eb74e9a, type: 3}
   m_Name: EyeGazeInteraction Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Eye Gaze Interaction Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.eyetracking
@@ -596,8 +583,6 @@ MonoBehaviour:
   company: Unity
   priority: 0
   required: 0
-  targetQuest: 1
-  targetQuest2: 1
 --- !u!114 &4852324133385277945
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -630,7 +615,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 274c02963f889a64e90bc2e596e21d13, type: 3}
   m_Name: HTCViveControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: HTC Vive Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.htcvive
@@ -690,7 +675,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feeef8d85de8db242bdda70cc7ff5acd, type: 3}
   m_Name: OculusTouchControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Oculus Touch Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.oculustouch
@@ -730,7 +715,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 761fdd4502cb7a84e9ec7a2b24f33f37, type: 3}
   m_Name: MicrosoftMotionControllerProfile Standalone
   m_EditorClassIdentifier: 
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Microsoft Motion Controller Profile
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.microsoftmotioncontroller
@@ -774,26 +759,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   features:
   - {fileID: 435388654215597382}
-  - {fileID: 3038887066143626027}
   - {fileID: 3891094454112154631}
-  - {fileID: 3577854188461154014}
-  - {fileID: 700487626511834835}
-  - {fileID: 1646254967617384433}
   - {fileID: 4964443022901880563}
   - {fileID: -7914319200133948096}
-  - {fileID: -5837762299035809335}
   - {fileID: 2691175679728986231}
   - {fileID: 7241066360913745371}
   - {fileID: 8488333900315053656}
   - {fileID: 6425815092985144757}
-  - {fileID: 4852324133385277945}
   - {fileID: -1044309664132172047}
   - {fileID: -602459153130883697}
-  - {fileID: 2932169961642040043}
   m_renderMode: 1
   m_depthSubmissionMode: 0
-  m_optimizeBufferDiscards: 0
-  m_symmetricProjection: 0
 --- !u!114 &8488333900315053656
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -810,7 +786,7 @@ MonoBehaviour:
   nameUi: Mock Runtime
   version: 0.0.2
   featureIdInternal: com.unity.openxr.feature.mockruntime
-  openxrExtensionStrings: XR_UNITY_null_gfx XR_UNITY_android_present
+  openxrExtensionStrings: XR_UNITY_null_gfx
   company: Unity
   priority: 0
   required: 0
